@@ -1,4 +1,4 @@
-package com.karas.base;
+package com.karas.baseModel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
