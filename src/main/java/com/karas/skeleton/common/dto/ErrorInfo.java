@@ -1,9 +1,13 @@
-package com.karas.baseModel.common.dto;
-
+package com.karas.skeleton.common.dto;
+/**
+ * @DESCRIPTION 自定义返回错误信息格式
+ * @AUTHOR karas - 272256055@qq.com
+ * @DATE 2016/10/28
+ */
 public class ErrorInfo<T> {
 
     public static final Integer OK = 0;
-    public static final Integer ERROR = 100;
+    public static final Integer ERROR = 404;
 
     private Integer code;
     private String message;

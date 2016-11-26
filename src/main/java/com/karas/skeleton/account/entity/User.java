@@ -1,21 +1,15 @@
-package com.karas.baseModel.account.entity;
+package com.karas.skeleton.account.entity;
+
+import com.karas.skeleton.common.BaseEntity;
 
 /**
  * Created by karasying on 2016/10/27.
  */
-public class user {
+public class User extends BaseEntity {
 
-    private Long id;
+
     private String name;
     private Integer age;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;

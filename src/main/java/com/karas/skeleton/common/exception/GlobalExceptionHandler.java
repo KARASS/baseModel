@@ -1,13 +1,15 @@
-package com.karas.baseModel.common.exception;
+package com.karas.skeleton.common.exception;
 
-import com.karas.baseModel.common.dto.ErrorInfo;
+import com.karas.skeleton.common.dto.ErrorInfo;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
-
+/**
+ * Created by karasying on 2016/10/27.
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
